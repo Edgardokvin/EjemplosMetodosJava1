@@ -1,26 +1,18 @@
-package metodo_2;
+package metodo_4;
 
 public class ejemplo_4 {
-	public static void main(String[] args){
-	 restar (55,890);
-	 div (60,10);
+	public static void main(String[] args) {
+		int resul;
+		resul = division (12,2);
+		imprimir(resul);
+		}
+	public static int division(int a, int b){
+		int divi=a/b;
+		return divi;
 	}
-				public static void restar(int y, int x) {
-					
-					int resta; 
-					
-					resta = y-x;
-					System.out.println("El resultado de la resta es: "+resta);
-				}
-					
-				
-				public static void div(int y, int x) {
-					
-					int dividir; 
-					
-					dividir = y/x;
-					System.out.println("El resultado de la divicion es: "+dividir);
-				}
-					
-				}
+	public static void imprimir(int z){
+		System.out.println("el reultado es: "+z);
+	}
+
+}
 

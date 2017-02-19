@@ -1,26 +1,21 @@
-package metodo_2;
+package metodo_4;
 
 public class ejemplo_5 {
-	public static void main(String[] args){
-		 div (60,10);
-		 multiplicar (33,5);
+	
+		public static void main(String[] args) {
+			int resul;
+			resul = division (12,2,6,5,2);
+			imprimir(resul);
+			}
+		public static int division(int a, int b, int c, int d, int e){
+			int divi=a/b;
+			return divi;
 		}
-					public static void div(int y, int x) {
-						
-						int dividir; 
-						
-						dividir = y/x;
-						System.out.println("El resultado de la divicion es: "+dividir);
-					}
-						
-			
-				public static void multiplicar(int y, int x) {
-					
-					int multiplicar; 
-					
-					multiplicar = y*x;
-				
-					System.out.println("El resultado de la multiplicacion es: "+multiplicar);
-				}
-					
-				}
+		public static void imprimir(int z){
+			System.out.println("el reultado es: "+z);
+		}
+
+	}
+
+
+
