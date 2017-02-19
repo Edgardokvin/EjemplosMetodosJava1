@@ -1,19 +1,19 @@
-package ejemplo1;
+package metodo_2;
 
 public class ejemplo_2 {
-	public static void main (String args[]){
-	   multiplicar();
-
-		}
-			
-			public static void multiplicar( ){
-					int x=10;
-					int y=7;
-					int multiplicar= x*y;
+	public static void main(String[] args){
+	multiplicar (7,5);
+	
+ }
+				public static void multiplicar(int y, int x) {
 					
-					System.out.println("Eel resutado  de la multiplicacion es: "+multiplicar);
-					}
-		}
-
+					int multiplicar; 
+					
+					multiplicar = y*x;
+				
+					System.out.println("El resultado de la multiplicacion es: "+multiplicar);
+				}
+					
+				}
 
 
