@@ -1,20 +1,18 @@
-package metodo_2;
+package metodo_4;
 
 public class ejemplo_1 {
-public static void main(String[] args){
-			
-			 restar (7,5);
+	public static void main(String[] args) {
+		int resul;
+		resul=multiplicar(10,10);
+		imprimir(resul);
+		}
+	public static int multiplicar(int a, int b){
+		int multi=a*b;
+		return multi;
+	}
+	public static void imprimir(int z){
+		System.out.println("La multiplicacion es: "+z);
+	}
+
 }
-			public static void restar(int y, int x) {
-				
-				int resta; 
-				
-				resta = y-x;
-				System.out.println("El resultado de la resta es: "+resta);
-			}
-				
-			}
-
-		
-
 
